@@ -1,0 +1,16 @@
+1º git init  -> construir nuevo repositorio
+responderá indicando que se ha creado un repositorio en la carpeta actual,indicando .git (oculto)
+
+2º ls -a  -> para ver el contenido
+
+3º git status  -> nos muestra el estado
+commint es la forma de git de indicarnos cada cambio que se ha realizado en repositorio
+de forma que cada cambia que realizamos realicemos un comming comentando dicho cambio
+
+4º nano manual.txt creamos un archivo nuevo llamado manual.txt
+si ejecutamos de nuevo git status nos indicara untracked, que nos indica que git sabe que hemos realizado un cambio pero que no hemos realizado un commint indicando el cambio
+
+5º git add manual txt -> para indicarle que hemos realizado cambios en un archivo manual.txt
+ahora si ejecutamos de nuevo git status nos indicara changes indicando que esta preparado para ser comentado con commit
+
+6º git commit  -> donde podremos comentar en que consiste los cambios
