@@ -36,3 +36,18 @@ eliminar un commit con reset
 
 revertir commit
 15º git diff "indicador commit a" indicador commit b"  -> comprobamos los cambios entre dos commint
+16º git revert HEAD ->intercambia las linés las añadidas (indicadas como un más) con cambiadas por las eliminada (indicadas con un
+ menos)
+17º git revert --no-commit HEAD  -> revierte los cambios si realizar un commit
+18º git revert --continue   -> finaliza el proceso de revertir
+
+19º git log --oneline --graph  -> nos muestra conológicamente los cambios
+
+crear ramas-bifurcaciones (branches), 
+20º git branch   -> nos muestra el que rama nos encontramos
+21º git branch "nombre de la rama a crear"  -> creamos una nueva rama
+22º git checkout "nombre de la rama"  -> cambia a la rama indicada
+23º git checkout - "nombre de la nueva rama"  -> creamos y accedemos a una nueva rama
+24º git branch -m "nombre de la rama "nuevo nombre"  -> cambiamos el nombre de la rama
+https://www.youtube.com/watch?v=Pw4TOTIkhfk
+
