@@ -14,3 +14,11 @@ si ejecutamos de nuevo git status nos indicara untracked, que nos indica que git
 ahora si ejecutamos de nuevo git status nos indicara changes indicando que esta preparado para ser comentado con commit
 
 6º git commit  -> donde podremos comentar en que consiste los cambios
+
+7º git log    -> nos muestra un historial de cambios
+nos mostrara una serie de numeros y letras que es unico para cada cambio 
+si relizamos cambios en el fichero y ejecutamos git status nos indicarar que hay cambios
+
+8º git diff   -> nos permite ver una lista de cambios
+
+-- es importante tener encuenta que lso cambios son validos para git una vez realizado git add --
