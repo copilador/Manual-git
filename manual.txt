@@ -22,3 +22,17 @@ si relizamos cambios en el fichero y ejecutamos git status nos indicarar que hay
 8º git diff   -> nos permite ver una lista de cambios
 
 -- es importante tener encuenta que lso cambios son validos para git una vez realizado git add --
+
+9º git commit --amend   ->si es necesario volver atrás de un cambio
+
+10º git checkout -- manual.txt  -> deshace el ultimo cambio de las modificaciones locales, siempre que no hallamos realizado un git add
+
+11º git reset HEAD manual.txt   -> si hemos realizado un git add seguidamente git checkout -- manual
+
+eliminar un commit con reset
+12º git log --oneline  -> nos mostrara los commit realizados en cada linea
+13º git reset "indicador commit"  ->elimina el commit indicado
+14º git checkout -- mamual.txt
+
+revertir commit
+15º git diff "indicador commit a" indicador commit b"  -> comprobamos los cambios entre dos commint
