@@ -65,5 +65,5 @@ si realizamos cambios en el fichero y ejecutamos git status nos indicara que hay
 
 24º git branch -m "nombre de la rama "nuevo nombre"  -> cambiamos el nombre de la rama
 
-https://www.youtube.com/watch?v=Pw4TOTIkhfk
+
 
