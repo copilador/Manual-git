@@ -1,53 +1,69 @@
+# Manual GIT
+
 1º git init  -> construir nuevo repositorio
 responderá indicando que se ha creado un repositorio en la carpeta actual,indicando .git (oculto)
 
 2º ls -a  -> para ver el contenido
 
 3º git status  -> nos muestra el estado
+```
 commint es la forma de git de indicarnos cada cambio que se ha realizado en repositorio
 de forma que cada cambia que realizamos realicemos un comming comentando dicho cambio
-
+```
+### Creamos un fichero de texto para las pruebas
 4º nano manual.txt creamos un archivo nuevo llamado manual.txt
+```
 si ejecutamos de nuevo git status nos indicara untracked, que nos indica que git sabe que hemos realizado un cambio pero que no hemos realizado un commint indicando el cambio
-
+```
 5º git add manual txt -> para indicarle que hemos realizado cambios en un archivo manual.txt
+```
 ahora si ejecutamos de nuevo git status nos indicara changes indicando que esta preparado para ser comentado con commit
-
+```
 6º git commit  -> donde podremos comentar en que consiste los cambios
 
 7º git log    -> nos muestra un historial de cambios
-nos mostrara una serie de numeros y letras que es unico para cada cambio 
-si relizamos cambios en el fichero y ejecutamos git status nos indicarar que hay cambios
-
+```
+nos mostrara una serie de números y letras que es unico para cada cambio 
+si realizamos cambios en el fichero y ejecutamos git status nos indicara que hay cambios
+```
 8º git diff   -> nos permite ver una lista de cambios
-
--- es importante tener encuenta que lso cambios son validos para git una vez realizado git add --
-
+```
+-- es importante tener en cuenta que lso cambios son validos para git una vez realizado git add --
+```
 9º git commit --amend   ->si es necesario volver atrás de un cambio
 
 10º git checkout -- manual.txt  -> deshace el ultimo cambio de las modificaciones locales, siempre que no hallamos realizado un git add
 
 11º git reset HEAD manual.txt   -> si hemos realizado un git add seguidamente git checkout -- manual
 
-eliminar un commit con reset
+### Eliminar un commit con reset
 12º git log --oneline  -> nos mostrara los commit realizados en cada linea
 13º git reset "indicador commit"  ->elimina el commit indicado
 14º git checkout -- mamual.txt
 
-revertir commit
-15º git diff "indicador commit a" indicador commit b"  -> comprobamos los cambios entre dos commint
-16º git revert HEAD ->intercambia las linés las añadidas (indicadas como un más) con cambiadas por las eliminada (indicadas con un
- menos)
+### Revertir commit
+
+15º git diff "indicador commit a" indicador commit b"  -> comprobamos los cambios entre dos commit
+
+16º git revert HEAD ->intercambia las lineas las añadidas (indicadas como un más) con cambiadas por las eliminada (indicadas con un menos)
+
 17º git revert --no-commit HEAD  -> revierte los cambios si realizar un commit
+
 18º git revert --continue   -> finaliza el proceso de revertir
 
-19º git log --oneline --graph  -> nos muestra conológicamente los cambios
+19º git log --oneline --graph  -> nos muestra cronológicamente los cambios
 
-crear ramas-bifurcaciones (branches), 
+### Crear ramas-bifurcaciones (branches):
+
 20º git branch   -> nos muestra el que rama nos encontramos
+
 21º git branch "nombre de la rama a crear"  -> creamos una nueva rama
+
 22º git checkout "nombre de la rama"  -> cambia a la rama indicada
+
 23º git checkout - "nombre de la nueva rama"  -> creamos y accedemos a una nueva rama
+
 24º git branch -m "nombre de la rama "nuevo nombre"  -> cambiamos el nombre de la rama
+
 https://www.youtube.com/watch?v=Pw4TOTIkhfk
 
