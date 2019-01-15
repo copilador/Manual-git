@@ -28,7 +28,7 @@ si realizamos cambios en el fichero y ejecutamos git status nos indicara que hay
 ```
 8º git diff   -> nos permite ver una lista de cambios
 ```
--- es importante tener en cuenta que lso cambios son validos para git una vez realizado git add --
+-- es importante tener en cuenta que los cambios son validos para git una vez realizado git add --
 ```
 9º git commit --amend   ->si es necesario volver atrás de un cambio
 
