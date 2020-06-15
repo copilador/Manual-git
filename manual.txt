@@ -8,7 +8,7 @@ responderá indicando que se ha creado un repositorio en la carpeta actual,indic
 3º git status  -> nos muestra el estado
 ```
 commint es la forma de git de indicarnos cada cambio que se ha realizado en repositorio
-de forma que cada cambia que realizamos realicemos un comming comentando dicho cambio
+de forma que cada cambio que realizamos realicemos un comming comentando dicho cambio
 ```
 ### Creamos un fichero de texto para las pruebas
 4º nano manual.txt creamos un archivo nuevo llamado manual.txt
