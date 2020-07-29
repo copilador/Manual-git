@@ -1,4 +1,7 @@
 # Manual GIT
+Creamos una carpeta 
+-mkdir nombre carpeta
+-cd nombre carpeta
 
 1º git init  -> construir nuevo repositorio
 responderá indicando que se ha creado un repositorio en la carpeta actual,indicando .git (oculto)
@@ -15,7 +18,7 @@ de forma que cada cambio que realizamos realicemos un comming comentando dicho c
 ```
 si ejecutamos de nuevo git status nos indicara untracked, que nos indica que git sabe que hemos realizado un cambio pero que no hemos realizado un commint indicando el cambio
 ```
-5º git add manual txt -> para indicarle que hemos realizado cambios en un archivo manual.txt
+5º git add manual.txt -> para indicarle que hemos realizado cambios en un archivo manual.txt
 ```
 ahora si ejecutamos de nuevo git status nos indicara changes indicando que esta preparado para ser comentado con commit
 ```
